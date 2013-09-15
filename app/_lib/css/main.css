@@ -1,0 +1,40 @@
+.pane  {
+	-webkit-tap-highlight-color: green;
+}
+
+#title {
+	background: darkblue;
+	color: white;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+}
+
+#title-logo {
+   position: absolute;
+   background: url(../img/talkngolf-icon-36x36.png) white;
+   background-size: cover;
+   border-radius: 5px;
+   padding: 1%;
+   height: 18px;
+   width: 18px;
+   top: 4px;
+   left: 1%;
+}
+
+.home-button- {
+   background: url(../img/home.png) white;
+   background-size: cover;
+   border-radius: 5px;
+   float: right;
+   position: absolute;
+   padding: 1%;
+   height: 36px;
+   width: 36px;
+   top: 1.5%;
+   right: 4%; 
+
+}

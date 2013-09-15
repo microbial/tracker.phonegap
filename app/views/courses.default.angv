@@ -1,0 +1,4 @@
+<h2>Courses</h2>
+<ul data-ng-repeat="Course in courses">
+	<li></li>
+</ul>

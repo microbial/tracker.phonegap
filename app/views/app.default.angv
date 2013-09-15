@@ -1,0 +1,47 @@
+
+
+{{ Round }}
+<h1>Round</h1>
+<div data-ng-repeat="deviceData in Round.data>
+	<div data-ng-repeat="Device in deviceData">
+		{{ Device }}
+	</div>
+</div>
+
+
+
+
+
+
+<!--
+<h1>PlayString</h1>
+<pre data-ng-controller="PlayController">
+{app}/Device/Round/Course/Hole/Attempt/Club/Mood
+</pre>
+
+
+<h2>Devices</h2>
+<ul data-ng-repeat="DeviceData in Device">
+<li>{{ DeviceData.Device.Name }}</li>
+</ul>
+
+<h2>Users</h2>
+<ul data-ng-repeat="UserData in users.data">
+<li>{{ UserData.User.username }}</li>
+</ul>
+
+<h2>Courses</h2>
+<ul data-ng-repeat="CourseData in courses.data">
+<li>{{ CourseData.Course.Name }}</li>
+</ul>
+
+<h2>Clubs</h2>
+<ul data-ng-repeat="ClubData in clubs.data">
+<li>{{ ClubData.Club.Name }}</li>
+</ul>
+
+<h2>Rounds</h2>
+<ul data-ng-repeat="RoundData in rounds.data">
+<li>{{ RoundData.Round }}</li>
+</ul>
+-->

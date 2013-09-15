@@ -1,0 +1,25 @@
+<form name="{{ model }}AddForm" method="POST" action="{{ name }}/add" accept-charset="UTF-8">
+<div style="display:none"><input type="hidden" name="_method" value="POST"></div>
+
+
+<fieldset>
+
+	<legend><h2>Add {{ name }}{{ true | checkmark }}</h2></legend>
+
+	
+	<div class="formFieldWrapper" 
+		data-ng-repeat="formField in formFields"
+		data-ng on="formField.inputType">
+	
+		<label data-ng-switch-when="hidden" for="{{ formField.Name }}">{{ formField.Name }}</label>
+		
+		<input type="{{ formField.inputType }}" name="data[{{ model }}][{{ formField.Name }}]" value="{{ formField.defaultValue }} " />
+		
+	</div>
+
+	
+</fieldset>
+
+<button name="Save">Save</button>
+
+</form>
