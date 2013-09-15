@@ -19,6 +19,12 @@
 		function leave(){
 			navigator.app.exitApp();
 		}
+		
+		$( document ).bind( "mobileinit", function() {
+		
+		    // Make your jQuery Mobile framework configuration changes here!
+		    $.mobile.allowCrossDomainPages = true;
+		});
 	});
 	</script>
 	<style>
